@@ -1,0 +1,40 @@
+body{
+    background-color: #B6BBC4;
+    margin: 10px;
+    height: 100%;
+}
+img {
+    height: 20vh;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+  
+.Left, .Right {
+    flex:1; 
+    background-color: #161A30;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+
+h1 {
+    text-align: center;
+    color: #B6BBC4;
+    font-size: 70px;
+}
+
+h3 {
+    text-align: center;
+    color: #31304D;
+    font-size: 50px;
+}
+button {
+    align-self: center;
+}
+h6 {
+    text-align: center;
+    font-size: 20px;
+}
